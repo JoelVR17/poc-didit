@@ -1,0 +1,442 @@
+[
+  {
+    "id": "c703dbad-de15-4deb-834d-703fd0748577",
+    "timestamp": "2025-12-24T19:24:30.718Z",
+    "sessionId": "b28bc6ee-0244-472f-8613-ea5b8c3cd0e2",
+    "status": "Not Started",
+    "raw": {
+      "created_at": 1766604177,
+      "metadata": {
+        "app": "didit-test",
+        "timestamp": "2025-12-24T19:24:29.330Z"
+      },
+      "session_id": "b28bc6ee-0244-472f-8613-ea5b8c3cd0e2",
+      "status": "Not Started",
+      "timestamp": 1766604177,
+      "vendor_data": "user-1766604269330",
+      "webhook_type": "status.updated",
+      "workflow_id": "b881614c-dddc-4702-a8ad-5695ebca8ada"
+    }
+  },
+  {
+    "id": "eb3e7d09-31ef-4717-8463-9656dabd02ea",
+    "timestamp": "2025-12-24T19:25:27.586Z",
+    "sessionId": "b28bc6ee-0244-472f-8613-ea5b8c3cd0e2",
+    "status": "In Progress",
+    "raw": {
+      "created_at": 1766604177,
+      "metadata": {
+        "app": "didit-test",
+        "timestamp": "2025-12-24T19:24:29.330Z"
+      },
+      "session_id": "b28bc6ee-0244-472f-8613-ea5b8c3cd0e2",
+      "status": "In Progress",
+      "timestamp": 1766604234,
+      "vendor_data": "user-1766604269330",
+      "webhook_type": "status.updated",
+      "workflow_id": "b881614c-dddc-4702-a8ad-5695ebca8ada"
+    }
+  },
+  {
+    "id": "0f844b03-991a-428f-966b-9b62942380d7",
+    "timestamp": "2025-12-24T19:26:32.907Z",
+    "sessionId": "b28bc6ee-0244-472f-8613-ea5b8c3cd0e2",
+    "status": "Approved",
+    "decision": {
+      "aml": null,
+      "callback": "http://localhost:3000/verification-callback",
+      "contact_details": null,
+      "created_at": "2025-12-24T19:22:57.639449Z",
+      "database_validation": null,
+      "email": null,
+      "expected_details": null,
+      "face_match": {
+        "score": 91.76,
+        "source_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/face-match/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2/source.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=828209755b6b086a283f05cae3cd1b809ad7ddfb9de31222fb1e8083a9d9b225",
+        "source_image_session_id": null,
+        "status": "Approved",
+        "target_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/face-match/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2/target.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=b4b7ebd01a3134afd473d2d79bb1a1b4dadf185cfce2ba6018f83cccbe946368",
+        "warnings": []
+      },
+      "features": [
+        "ID_VERIFICATION",
+        "LIVENESS",
+        "FACE_MATCH",
+        "IP_ANALYSIS"
+      ],
+      "id_verification": {
+        "address": null,
+        "age": 19,
+        "back_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-back_image-4113cbcf-d9db-49ff-99f8-922e00d03a8f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=51f21f7d6cb877a59da069b0348cc8cc425e8cd5dd45aae4433dcb275d3a3ed1",
+        "back_image_camera_front": null,
+        "back_image_camera_front_face_match_score": null,
+        "back_video": null,
+        "date_of_birth": "2006-10-23",
+        "date_of_issue": null,
+        "document_number": "005720145",
+        "document_type": "Identity Card",
+        "expiration_date": "2034-10-23",
+        "extra_fields": {
+          "first_surname": "Villarreal",
+          "second_surname": "Arley"
+        },
+        "extra_files": [],
+        "first_name": "Santiago",
+        "formatted_address": null,
+        "front_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-front_image-3cde58f2-ad64-4c8a-9393-900ef778299a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=d4a7c92738dc9a20db7d0f6b5100f286ab42d3bbc33e514b44ed79e444318621",
+        "front_image_camera_front": null,
+        "front_image_camera_front_face_match_score": null,
+        "front_video": null,
+        "full_back_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-full_back_image-80100a3b-2ee2-414d-8232-7ef77b75bf0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=2158b76238b3fcc6ad939e801510764d01f68922180279b696a6e2c6a371bfb3",
+        "full_front_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-full_front_image-b7df48f3-3a98-43c5-8ff8-213768a03c97.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=a0e70cb53c7fc84e0ed0f22a693b22b8a2752c030453bfb3e1958ab5b3f974ed",
+        "full_name": "Santiago Villarreal Arley",
+        "gender": "U",
+        "issuing_state": "CRI",
+        "issuing_state_name": "Costa Rica",
+        "last_name": "Villarreal Arley",
+        "marital_status": "UNKNOWN",
+        "nationality": null,
+        "parsed_address": null,
+        "personal_number": "119780888",
+        "place_of_birth": "Hospital Central San Jose",
+        "portrait_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-portrait_image-5b526d47-4fdb-4a46-8cc3-94a2acc0c80a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=a2e30ef2810985d3fa0019458effbe2340f69cfff5a1848930c0354212e3e1b0",
+        "status": "Approved",
+        "warnings": [
+          {
+            "additional_data": {
+              "api_service": null,
+              "duplicated_session_id": "4a46aede-ee8a-4155-89c9-aae648963393",
+              "duplicated_session_number": 232
+            },
+            "feature": "ID_VERIFICATION",
+            "log_type": "information",
+            "long_description": "The system identified a potential duplicate user with previously approved documents from another session, requiring further investigation.",
+            "risk": "POSSIBLE_DUPLICATED_USER",
+            "short_description": "Possible duplicated approved user from other session"
+          }
+        ]
+      },
+      "ip_analysis": {
+        "browser_family": "Opera",
+        "device_brand": null,
+        "device_model": null,
+        "ip_address": "179.60.174.234",
+        "ip_city": "San José",
+        "ip_country": "Costa Rica",
+        "ip_country_code": "CR",
+        "ip_state": "San Jose",
+        "is_data_center": false,
+        "is_vpn_or_tor": false,
+        "isp": "Space Exploration Technologies Corporation",
+        "latitude": 9.933879852294922,
+        "locations_info": {
+          "additional_locations": [
+            {
+              "browser_family": "Mobile Safari",
+              "device_brand": "Apple",
+              "device_model": "iPhone",
+              "distance_from_id_document": {
+                "direction": "NE",
+                "distance": 10.61
+              },
+              "distance_from_ip": {
+                "direction": "W",
+                "distance": 1.57
+              },
+              "distance_from_poa_document": null,
+              "ip_address": "201.191.195.246",
+              "ip_city": "San José",
+              "ip_country": "Costa Rica",
+              "ip_country_code": "CR",
+              "ip_state": "San Jose",
+              "is_data_center": false,
+              "is_vpn_or_tor": false,
+              "isp": "Instituto Costarricense de Electricidad y Telecomunicaciones",
+              "latitude": 9.934599876403809,
+              "longitude": -84.07060241699219,
+              "organization": "Instituto Costarricense de Electricidad y Telecomunicaciones",
+              "os_family": "iOS",
+              "platform": "mobile",
+              "status": "Not Finished",
+              "time_zone": "America/Costa_Rica",
+              "time_zone_offset": "-0600"
+            }
+          ],
+          "id_document": {
+            "distance_from_ip": {
+              "direction": "SW",
+              "distance": 11.85
+            },
+            "distance_from_poa_document": null,
+            "location": {
+              "latitude": 10,
+              "longitude": -84
+            }
+          },
+          "ip": {
+            "distance_from_id_document": {
+              "direction": "SW",
+              "distance": 11.85
+            },
+            "distance_from_poa_document": null,
+            "location": {
+              "latitude": 9.933879852294922,
+              "longitude": -84.08489227294922
+            }
+          },
+          "poa_document": {
+            "distance_from_id_document": null,
+            "distance_from_ip": null,
+            "location": null
+          }
+        },
+        "longitude": -84.08489227294922,
+        "organization": "Starlink Costa Rica SRL",
+        "os_family": "Windows",
+        "platform": "desktop",
+        "status": "Approved",
+        "time_zone": "America/Costa_Rica",
+        "time_zone_offset": "-0600",
+        "warnings": []
+      },
+      "liveness": {
+        "age_estimation": 19.15,
+        "matches": [],
+        "method": "PASSIVE",
+        "reference_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/face/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2/reference_image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=064c637835e8ec741a73ce8e2fd6b2817172a50ee91739c7fea9f0a34323a8f9",
+        "score": 100,
+        "status": "Approved",
+        "video_url": null,
+        "warnings": []
+      },
+      "metadata": {
+        "app": "didit-test",
+        "timestamp": "2025-12-24T19:24:29.330Z"
+      },
+      "nfc": null,
+      "phone": null,
+      "poa": null,
+      "questionnaire": null,
+      "reviews": [],
+      "session_id": "b28bc6ee-0244-472f-8613-ea5b8c3cd0e2",
+      "session_number": 298,
+      "session_url": "https://verify.didit.me/session/pjcSRaoUCedQ",
+      "status": "Approved",
+      "vendor_data": "user-1766604269330",
+      "workflow_id": "b881614c-dddc-4702-a8ad-5695ebca8ada"
+    },
+    "raw": {
+      "created_at": 1766604177,
+      "decision": {
+        "aml": null,
+        "callback": "http://localhost:3000/verification-callback",
+        "contact_details": null,
+        "created_at": "2025-12-24T19:22:57.639449Z",
+        "database_validation": null,
+        "email": null,
+        "expected_details": null,
+        "face_match": {
+          "score": 91.76,
+          "source_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/face-match/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2/source.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=828209755b6b086a283f05cae3cd1b809ad7ddfb9de31222fb1e8083a9d9b225",
+          "source_image_session_id": null,
+          "status": "Approved",
+          "target_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/face-match/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2/target.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=b4b7ebd01a3134afd473d2d79bb1a1b4dadf185cfce2ba6018f83cccbe946368",
+          "warnings": []
+        },
+        "features": [
+          "ID_VERIFICATION",
+          "LIVENESS",
+          "FACE_MATCH",
+          "IP_ANALYSIS"
+        ],
+        "id_verification": {
+          "address": null,
+          "age": 19,
+          "back_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-back_image-4113cbcf-d9db-49ff-99f8-922e00d03a8f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=51f21f7d6cb877a59da069b0348cc8cc425e8cd5dd45aae4433dcb275d3a3ed1",
+          "back_image_camera_front": null,
+          "back_image_camera_front_face_match_score": null,
+          "back_video": null,
+          "date_of_birth": "2006-10-23",
+          "date_of_issue": null,
+          "document_number": "005720145",
+          "document_type": "Identity Card",
+          "expiration_date": "2034-10-23",
+          "extra_fields": {
+            "first_surname": "Villarreal",
+            "second_surname": "Arley"
+          },
+          "extra_files": [],
+          "first_name": "Santiago",
+          "formatted_address": null,
+          "front_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-front_image-3cde58f2-ad64-4c8a-9393-900ef778299a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=d4a7c92738dc9a20db7d0f6b5100f286ab42d3bbc33e514b44ed79e444318621",
+          "front_image_camera_front": null,
+          "front_image_camera_front_face_match_score": null,
+          "front_video": null,
+          "full_back_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-full_back_image-80100a3b-2ee2-414d-8232-7ef77b75bf0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=2158b76238b3fcc6ad939e801510764d01f68922180279b696a6e2c6a371bfb3",
+          "full_front_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-full_front_image-b7df48f3-3a98-43c5-8ff8-213768a03c97.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=a0e70cb53c7fc84e0ed0f22a693b22b8a2752c030453bfb3e1958ab5b3f974ed",
+          "full_name": "Santiago Villarreal Arley",
+          "gender": "U",
+          "issuing_state": "CRI",
+          "issuing_state_name": "Costa Rica",
+          "last_name": "Villarreal Arley",
+          "marital_status": "UNKNOWN",
+          "nationality": null,
+          "parsed_address": null,
+          "personal_number": "119780888",
+          "place_of_birth": "Hospital Central San Jose",
+          "portrait_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/ocr/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2-portrait_image-5b526d47-4fdb-4a46-8cc3-94a2acc0c80a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=a2e30ef2810985d3fa0019458effbe2340f69cfff5a1848930c0354212e3e1b0",
+          "status": "Approved",
+          "warnings": [
+            {
+              "additional_data": {
+                "api_service": null,
+                "duplicated_session_id": "4a46aede-ee8a-4155-89c9-aae648963393",
+                "duplicated_session_number": 232
+              },
+              "feature": "ID_VERIFICATION",
+              "log_type": "information",
+              "long_description": "The system identified a potential duplicate user with previously approved documents from another session, requiring further investigation.",
+              "risk": "POSSIBLE_DUPLICATED_USER",
+              "short_description": "Possible duplicated approved user from other session"
+            }
+          ]
+        },
+        "ip_analysis": {
+          "browser_family": "Opera",
+          "device_brand": null,
+          "device_model": null,
+          "ip_address": "179.60.174.234",
+          "ip_city": "San José",
+          "ip_country": "Costa Rica",
+          "ip_country_code": "CR",
+          "ip_state": "San Jose",
+          "is_data_center": false,
+          "is_vpn_or_tor": false,
+          "isp": "Space Exploration Technologies Corporation",
+          "latitude": 9.933879852294922,
+          "locations_info": {
+            "additional_locations": [
+              {
+                "browser_family": "Mobile Safari",
+                "device_brand": "Apple",
+                "device_model": "iPhone",
+                "distance_from_id_document": {
+                  "direction": "NE",
+                  "distance": 10.61
+                },
+                "distance_from_ip": {
+                  "direction": "W",
+                  "distance": 1.57
+                },
+                "distance_from_poa_document": null,
+                "ip_address": "201.191.195.246",
+                "ip_city": "San José",
+                "ip_country": "Costa Rica",
+                "ip_country_code": "CR",
+                "ip_state": "San Jose",
+                "is_data_center": false,
+                "is_vpn_or_tor": false,
+                "isp": "Instituto Costarricense de Electricidad y Telecomunicaciones",
+                "latitude": 9.934599876403809,
+                "longitude": -84.07060241699219,
+                "organization": "Instituto Costarricense de Electricidad y Telecomunicaciones",
+                "os_family": "iOS",
+                "platform": "mobile",
+                "status": "Not Finished",
+                "time_zone": "America/Costa_Rica",
+                "time_zone_offset": "-0600"
+              }
+            ],
+            "id_document": {
+              "distance_from_ip": {
+                "direction": "SW",
+                "distance": 11.85
+              },
+              "distance_from_poa_document": null,
+              "location": {
+                "latitude": 10,
+                "longitude": -84
+              }
+            },
+            "ip": {
+              "distance_from_id_document": {
+                "direction": "SW",
+                "distance": 11.85
+              },
+              "distance_from_poa_document": null,
+              "location": {
+                "latitude": 9.933879852294922,
+                "longitude": -84.08489227294922
+              }
+            },
+            "poa_document": {
+              "distance_from_id_document": null,
+              "distance_from_ip": null,
+              "location": null
+            }
+          },
+          "longitude": -84.08489227294922,
+          "organization": "Starlink Costa Rica SRL",
+          "os_family": "Windows",
+          "platform": "desktop",
+          "status": "Approved",
+          "time_zone": "America/Costa_Rica",
+          "time_zone_offset": "-0600",
+          "warnings": []
+        },
+        "liveness": {
+          "age_estimation": 19.15,
+          "matches": [],
+          "method": "PASSIVE",
+          "reference_image": "https://service-didit-verification-production-a1c5f9b8.s3.amazonaws.com/face/b28bc6ee-0244-472f-8613-ea5b8c3cd0e2/reference_image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUH6QTJHN2YTQXTM6%2F20251224%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251224T192459Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCWV1LXdlc3QtMSJIMEYCIQDApqbJNfoMocfS%2FVl0TqBM7znZkRyiI%2BgWFKbrlfF30AIhAJD%2FJY%2FTUqy%2B1aiEL7ZCpqt2eGNpQU03tss7O40NNBErKuEDCCwQABoMMjkxOTU4Mzc2OTIzIgwaJmpb9LVI7s3Yn5IqvgMbbaaixfZztzWmjJyv7kBvWk%2FFqp0JkayW1CgI9wdjYWiiR9I8jVfXM5Q5LVuYBZK2Kp6Bv%2BMscC1ueQv63g9O9VUulp7mfnuLIew4EDnup1taOF4AR5wxjyqivVqRZV6GUnUvFUJFpdvet7CZ9BBJDcZetWui0l0EW2%2F2kERKD0QtJaHtZl9YRxX%2BS9uCpQbNT7K%2BY41VzyWOJ4%2B75Fuc8ttS4WNt5XKoscQ33EIA1awqfB6EDH1PejRwa%2BvdV4l7TNaM7%2Br02ayayZvQsvIFSfCu%2B5%2FZ1XHX%2FE7Ln%2BMYBxnVvocKYO3kmW3PGpMHt69NP5LHGRNGjIzgQGKqFS%2F4DYgSvpOtXS9NHLgMhJOOzXGN7foCJb9Jcuvl5FkxVLIrpkzD1W49t6SAb9C%2BSjDCwJQpgCRYupVXF5u9psf9BU2dRlDBuqYeZplYfQTeMB1tr6heA1gMSvMhgOAm4uHq8ja4tCwTPvr3vf%2FDkD%2BLXJh2jWrpuuJQk57t16wR3DFrhWeVrLPpExxlwhzedi%2BaFTeCpkl32kKmDQbcB8HKFDEA7DFHWftllqLFa0xq69wjIplDUuDEjlapp%2BGTRjC59LDKBjqkAaV%2Fe45ZO2yDW5JWyptZrGRLoWVkc46KzFvFARQketbkIJRGhkmEi%2FkYWnsMoRFhnBCzncI%2Bpu26IZRfQg%2F2XOcC%2BTxgoIrJNHKu%2Bf4igaWIVm%2FLMOUscS%2FD82es0khsBkeaxuf63NGXZvmKaHj5eLg4tBpVJjl3ifGAtUxM3kBGmlFkCmUBCgTsZOhZN3hKak5f1fACzfvWSpqStGVf1umu8Xv3&X-Amz-Signature=064c637835e8ec741a73ce8e2fd6b2817172a50ee91739c7fea9f0a34323a8f9",
+          "score": 100,
+          "status": "Approved",
+          "video_url": null,
+          "warnings": []
+        },
+        "metadata": {
+          "app": "didit-test",
+          "timestamp": "2025-12-24T19:24:29.330Z"
+        },
+        "nfc": null,
+        "phone": null,
+        "poa": null,
+        "questionnaire": null,
+        "reviews": [],
+        "session_id": "b28bc6ee-0244-472f-8613-ea5b8c3cd0e2",
+        "session_number": 298,
+        "session_url": "https://verify.didit.me/session/pjcSRaoUCedQ",
+        "status": "Approved",
+        "vendor_data": "user-1766604269330",
+        "workflow_id": "b881614c-dddc-4702-a8ad-5695ebca8ada"
+      },
+      "metadata": {
+        "app": "didit-test",
+        "timestamp": "2025-12-24T19:24:29.330Z"
+      },
+      "session_id": "b28bc6ee-0244-472f-8613-ea5b8c3cd0e2",
+      "status": "Approved",
+      "timestamp": 1766604299,
+      "vendor_data": "user-1766604269330",
+      "webhook_type": "status.updated",
+      "workflow_id": "b881614c-dddc-4702-a8ad-5695ebca8ada"
+    }
+  },
+  {
+    "id": "f18ce202-065a-4c98-93c7-902247457c9c",
+    "timestamp": "2025-12-24T19:36:34.799Z",
+    "sessionId": "0d991935-7881-44c0-b8e8-7580f457a5f1",
+    "status": "Not Started",
+    "raw": {
+      "created_at": 1766604901,
+      "metadata": {
+        "browser_session_id": "didit-fp-305c1c8bc9e82faa"
+      },
+      "session_id": "0d991935-7881-44c0-b8e8-7580f457a5f1",
+      "status": "Not Started",
+      "timestamp": 1766604901,
+      "webhook_type": "status.updated",
+      "workflow_id": "9e0b1c61-94cc-45ab-8d2c-fa796c4e4bf6"
+    }
+  }
+]

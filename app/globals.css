@@ -3,6 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --card-bg: #f0f0f0;
+  --card-bg-alt: #e8f5e9;
+  --card-bg-warning: #fff3cd;
+  --card-border: #ddd;
+  --text-secondary: #666;
+  --text-muted: #999;
+  --code-bg: #f5f5f5;
 }
 
 @theme inline {
@@ -16,6 +23,13 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --card-bg: #1a1a1a;
+    --card-bg-alt: #1a2e1a;
+    --card-bg-warning: #2e241a;
+    --card-border: #333;
+    --text-secondary: #999;
+    --text-muted: #666;
+    --code-bg: #1f1f1f;
   }
 }
 
